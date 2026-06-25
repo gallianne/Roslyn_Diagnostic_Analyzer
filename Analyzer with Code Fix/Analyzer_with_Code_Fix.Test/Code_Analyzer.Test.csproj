@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.7.0" />
+    <PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="18.7.0" />
+    <PackageReference Include="MSTest" Version="4.2.3" />
+    <PackageReference Include="MSTest.TestAdapter" Version="4.2.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="4.2.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Analyzer_with_Code_Fix.CodeFixes\Analyzer_with_Code_Fix.CodeFixes.csproj" />
+    <ProjectReference Include="..\Analyzer_with_Code_Fix\Analyzer_with_Code_Fix.csproj" />
+  </ItemGroup>
+
+</Project>

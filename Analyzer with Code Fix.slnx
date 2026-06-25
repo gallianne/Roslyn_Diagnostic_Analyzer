@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Analyzer with Code Fix/Analyzer_with_Code_Fix.CodeFixes/Analyzer_with_Code_Fix.CodeFixes.csproj" />
+  <Project Path="Analyzer with Code Fix/Analyzer_with_Code_Fix.Package/Analyzer_with_Code_Fix.Package.csproj" />
+  <Project Path="Analyzer with Code Fix/Analyzer_with_Code_Fix.Test/Code_Analyzer.Test.csproj" />
+  <Project Path="Analyzer with Code Fix/Analyzer_with_Code_Fix.Vsix/Analyzer_with_Code_Fix.Vsix.csproj" />
+  <Project Path="Analyzer with Code Fix/Analyzer_with_Code_Fix/Analyzer_with_Code_Fix.csproj" />
+</Solution>
